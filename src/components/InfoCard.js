@@ -8,11 +8,11 @@ const InfoCard = (props) => {
         <Typography variant="h5" color="textPrimary">
           {props.title}
         </Typography>
-        <Typography variant="h3" color="primary">
+        <Typography variant="h4" color="primary">
           {props.cases}
         </Typography>
-        <Typography variant="h5" color="textSecondary">
-          {props.total + "total"}
+        <Typography variant="caption" color="textSecondary">
+          {props.total + " in total"}
         </Typography>
       </CardContent>
     </Card>
