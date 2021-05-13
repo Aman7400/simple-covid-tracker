@@ -1,0 +1,14 @@
+.table {
+  height: 50vh;
+  overflow-y: scroll;
+  margin-top: 1rem;
+}
+.table tr:nth-of-type(odd) {
+  color: white;
+  background-color: rgb(97, 99, 101);
+}
+tr {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
