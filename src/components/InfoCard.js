@@ -12,7 +12,7 @@ const InfoCard = (props) => {
           {props.cases}
         </Typography>
         <Typography variant="h5" color="textSecondary">
-          {props.total}
+          {props.total + "total"}
         </Typography>
       </CardContent>
     </Card>
